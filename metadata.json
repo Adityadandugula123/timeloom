@@ -1,0 +1,6 @@
+{
+  "name": "Time Loom",
+  "description": "Personal time-tracking and productivity analytics application. Track. Understand. Improve.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

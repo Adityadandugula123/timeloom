@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark_navy">#FF101827</color>
+    <color name="dark_slate">#FF182235</color>
+    <color name="card_charcoal">#FF1E293B</color>
+    <color name="accent_blue">#FF4285F4</color>
+    <color name="accent_cyan">#FF22C7D8</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

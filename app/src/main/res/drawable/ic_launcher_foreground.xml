@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer concentric time dial arc -->
+    <path
+        android:strokeColor="#22C7D8"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M 32,54 A 22,22 0 1,1 76,54" />
+    <path
+        android:strokeColor="#4285F4"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M 76,54 A 22,22 0 0,1 32,54" />
+    
+    <!-- Stylized Geometric Hourglass / Loom Warp -->
+    <!-- Top chamber -->
+    <path
+        android:fillColor="#4285F4"
+        android:pathData="M 37,33 L 71,33 L 56,51 L 52,51 Z" />
+    <!-- Bottom chamber -->
+    <path
+        android:fillColor="#22C7D8"
+        android:pathData="M 52,57 L 56,57 L 71,75 L 37,75 Z" />
+    <!-- Center pulse node (weaving nexus) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 54,51 A 3,3 0 1,1 54,57 A 3,3 0 1,1 54,51 Z" />
+    <!-- Horizontal anchor bars -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M 34,31 L 74,31 M 34,77 L 74,77" />
+    <!-- Dynamic time tick marks -->
+    <path
+        android:strokeColor="#22C7D8"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M 54,23 L 54,27 M 54,81 L 54,85 M 23,54 L 27,54 M 81,54 L 85,54" />
+</vector>
